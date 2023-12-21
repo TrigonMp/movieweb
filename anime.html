@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          background: #303030; 
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: rgb(105, 105, 105); 
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: rgb(105, 105, 105); 
+        }
+    </style>
+    <title>
+        Movies
+    </title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="icon" href="/images/logo-ghahveee.png">
+</head>
+<body>
+
+    <!-- NAV -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="index.html" class="logo">
+                    <i class='bx bx-movie-play bx-tada main-color'></i>IRANI<span class="main-color">A</span>N MOV<span class="main-color">I</span>E
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#">کارتون ها</a></li>
+                    <li><a href="Series.html">سریال ها</a></li>
+                    <li><a href="Movies.html">فیلم ها</a></li>
+                    <li><a href="#">تماشای آنلاین</a></li>
+                    <li><a href="About.html">اخبار و مقالات</a></li>
+                    <li><a href="index.html">صفحه اصلی</a></li>
+                    <li>
+                        <a href="form.html" class="btn btn-hover">
+                            <span>Sign in</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+
+        <!-- HERO SECTION -->
+        <div class="hero-section">
+            <!-- HERO SLIDE -->
+            <div class="hero-slide">
+                <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+                    <!-- SLIDE ITEM -->
+                    <div class="hero-slide-item">
+                        <img src="./images/black-banner.png" alt="">
+                        <div class="overlay"></div>
+                        <div class="hero-slide-item-content">
+                            <div class="item-content-wraper">
+                                <div class="item-content-title top-down">
+                                    Black Panther
+                                </div>
+                                <div class="movie-infos top-down delay-2">
+                                    <div class="movie-info">
+                                        <i class="bx bxs-star"></i>
+                                        <span>9.5</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class="bx bxs-time"></i>
+                                        <span>120 mins</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <span>HD</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <span>16+</span>
+                                    </div>
+                                </div>
+                                <div class="item-content-description top-down delay-4">
+                                    «پلنگ سیاه» استودیوی مارول به دنبال تی چالا است که پس از مرگ پدرش، پادشاه واکاندا، به کشور آفریقایی منزوی و از نظر فناوری پیشرفته برمی‌گردد تا به تاج و تخت برسد و جایگاه شایسته‌اش را به عنوان پادشاه بگیرد.
+                                </div>
+                                <div class="item-action top-down delay-6">
+                                    <a href="Movies/blackpanther.html" class="btn btn-hover">
+                                        <i class="bx bxs-right-arrow"></i>
+                                        <span>Watch now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END SLIDE ITEM -->
+                    <!-- SLIDE ITEM -->
+                    <div class="hero-slide-item">
+                        <img src="./images/supergirl-banner.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="hero-slide-item-content">
+                            <div class="item-content-wraper">
+                                <div class="item-content-title top-down">
+                                    Supergirl
+                                </div>
+                                <div class="movie-infos top-down delay-2">
+                                    <div class="movie-info">
+                                        <i class="bx bxs-star"></i>
+                                        <span>9.5</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class="bx bxs-time"></i>
+                                        <span>120 mins</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <span>HD</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <span>16+</span>
+                                    </div>
+                                </div>
+                                <div class="item-content-description top-down delay-4">
+                                    پس از از دست دادن یک گوی قدرتمند، کارا زور ال، پسر عموی سوپرمن، برای بازیابی آن به زمین می آید و در عوض خود را در برابر یک جادوگر شرور می بیند. پس از از دست دادن یک گوی قدرتمند، کارا زور ال، پسر عموی سوپرمن، برای بازیابی آن به زمین می آید و در عوض خود را در برابر یک جادوگر شرور می بیند.
+                                </div>
+                                <div class="item-action top-down delay-6">
+                                    <a href="Series/supergirl-part1.html" class="btn btn-hover">
+                                        <i class="bx bxs-right-arrow"></i>
+                                        <span>Watch now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END SLIDE ITEM -->
+                    <!-- SLIDE ITEM -->
+                    <div class="hero-slide-item">
+                        <img src="./images/wanda-banner.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="hero-slide-item-content">
+                            <div class="item-content-wraper">
+                                <div class="item-content-title top-down">
+                                    Wanda Vision
+                                </div>
+                                <div class="movie-infos top-down delay-2">
+                                    <div class="movie-info">
+                                        <i class="bx bxs-star"></i>
+                                        <span>9.5</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <i class="bx bxs-time"></i>
+                                        <span>120 mins</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <span>HD</span>
+                                    </div>
+                                    <div class="movie-info">
+                                        <span>16+</span>
+                                    </div>
+                                </div>
+                                <div class="item-content-description top-down delay-4">
+                                    بررسی اجمالی. WandaVision سبک کمدی های کمدی کلاسیک را با دنیای سینمایی مارول ترکیب می کند که در آن واندا ماکسیموف و ویژن، دو موجود فوق العاده قدرتمند که زندگی ایده آل خود را در حومه شهر زندگی می کنند، شروع به شک می کنند که همه چیز آنطور که به نظر می رسد نیست.
+                                </div>
+                                <div class="item-action top-down delay-6">
+                                    <a href="#" class="btn btn-hover">
+                                        <i class="bx bxs-right-arrow"></i>
+                                        <span>Watch now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END SLIDE ITEM -->
+                    <!-- SLIDE ITEM -->
+                            <div class="hero-slide-item">
+                                <img src="https://i.ytimg.com/vi/9sgtTQwRr3g/maxresdefault.jpg" alt="">
+                                <div class="overlay"></div>
+                                <div class="hero-slide-item-content">
+                                    <div class="item-content-wraper">
+                                        <div class="item-content-title top-down">
+                                            dom-sorkh-ha
+                                        </div>
+                                        <div class="movie-infos top-down delay-2">
+                                            <div class="movie-info">
+                                                <i class="bx bxs-star"></i>
+                                                <span>9.5</span>
+                                            </div>
+                                            <div class="movie-info">
+                                                <i class="bx bxs-time"></i>
+                                                <span>120 mins</span>
+                                            </div>
+                                            <div class="movie-info">
+                                                <span>HD</span>
+                                            </div>
+                                            <div class="movie-info">
+                                                <span>16+</span>
+                                            </div>
+                                        </div>
+                                        <div class="item-content-description top-down delay-4">
+    دو جوان که برای انجام معاینات مربوط به معافی از سربازی به مرکز نظام وظیفه رفته‌اند با هم آشنا می‌شوند و این آشنایی پیش‌درآمد اتفاقات بسیاری برای آنها می‌شود.
+                                        </div>
+                                        <div class="item-action top-down delay-6">
+                                            <a href="Movies/dom-sorkh-ha.html" class="btn btn-hover">
+                                                <i class="bx bxs-right-arrow"></i>
+                                                <span>Watch now</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    <!-- END SLIDE ITEM -->
+                    <!-- SLIDE ITEM -->
+                                    <div class="hero-slide-item">
+                                        <img src="https://assets.imvbox.com/movies/2951e46abe4e5fe3da228a27c2a98ecd.jpg" alt="">
+                                        <div class="overlay"></div>
+                                        <div class="hero-slide-item-content">
+                                            <div class="item-content-wraper">
+                                                <div class="item-content-title top-down">
+                                                    Texas
+                                                </div>
+                                                <div class="movie-infos top-down delay-2">
+                                                    <div class="movie-info">
+                                                        <i class="bx bxs-star"></i>
+                                                        <span>9.5</span>
+                                                    </div>
+                                                    <div class="movie-info">
+                                                        <i class="bx bxs-time"></i>
+                                                        <span>120 mins</span>
+                                                    </div>
+                                                    <div class="movie-info">
+                                                        <span>HD</span>
+                                                    </div>
+                                                    <div class="movie-info">
+                                                        <span>16+</span>
+                                                    </div>
+                                                </div>
+                                                <div class="item-content-description top-down delay-4">
+                                                    هیچوقت یه ایرانی رو تهدید نکن ، حتی تو تگزاس این فیلم در برزیل فیلم برداری شده است و مضمونی کمدی دارد.خلاصه داستان این فیلم گویای این است که : هرگز یک ایرانی رو تهدید نکن حتی در یک کشور دیگر… 
+                                                </div>
+                                                <div class="item-action top-down delay-6">
+                                                    <a href="Movies/texas.html" class="btn btn-hover">
+                                                        <i class="bx bxs-right-arrow"></i>
+                                                        <span>Watch now</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                    <!-- END SLIDE ITEM -->
+                    <!-- SLIDE ITEM -->
+                                    <div class="hero-slide-item">
+                                        <img src="https://i.ytimg.com/vi/gJeIcpHyOJg/maxresdefault.jpg" alt="">
+                                        <div class="overlay"></div>
+                                        <div class="hero-slide-item-content">
+                                            <div class="item-content-wraper">
+                                                <div class="item-content-title top-down">
+                                                    Texas
+                                                </div>
+                                                <div class="movie-infos top-down delay-2">
+                                                    <div class="movie-info">
+                                                        <i class="bx bxs-star"></i>
+                                                        <span>9.5</span>
+                                                    </div>
+                                                    <div class="movie-info">
+                                                        <i class="bx bxs-time"></i>
+                                                        <span>120 mins</span>
+                                                    </div>
+                                                    <div class="movie-info">
+                                                        <span>HD</span>
+                                                    </div>
+                                                    <div class="movie-info">
+                                                        <span>16+</span>
+                                                    </div>
+                                                </div>
+                                                <div class="item-content-description top-down delay-4">
+                                                    ساسان و بهرام به ایران برگشته اند و آلیس هم با آنهاست. پدر بابک و مادر ساسان به فرودگاه می آیند تا آنها را به خانه ببرند اما نمی دانند که ازدواج کرده اند. در این بین بهرام چمدان اشتباهی را برمی‌دارد که باعث می‌شود با گروهی روبه‌رو شوند و وارد ماجراجویی‌های جدیدی شوند. متأسفانه این طبق برنامه پیش نمی رود و سلام جنکس به وجود می آید. این تا زمانی است که آنها با ساختن این فیلم متوجه می شوند که به طور تصادفی نسخه دوم تگزاس را نیز ساخته اند و تولید بلافاصله با تور تگزاس 2 متوقف می شود و یک تور زنده به بقیه فیلم تبدیل می شود.
+                                                </div>
+                                                <div class="item-action top-down delay-6">
+                                                    <a href="Movies/texas2.html" class="btn btn-hover">
+                                                        <i class="bx bxs-right-arrow"></i>
+                                                        <span>Watch now</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                    <!-- END SLIDE ITEM -->
+                                <!-- SLIDE ITEM -->
+                                <div class="hero-slide-item">
+                                    <img src="https://www.denofgeek.com/wp-content/uploads/2022/03/adam.jpg?resize=768%2C432" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="hero-slide-item-content">
+                                        <div class="item-content-wraper">
+                                            <div class="item-content-title top-down">
+                                                The Adam Project
+                                            </div>
+                                            <div class="movie-infos top-down delay-2">
+                                                <div class="movie-info">
+                                                    <i class="bx bxs-star"></i>
+                                                    <span>9.5</span>
+                                                </div>
+                                                <div class="movie-info">
+                                                    <i class="bx bxs-time"></i>
+                                                    <span>120 mins</span>
+                                                </div>
+                                                <div class="movie-info">
+                                                    <span>HD</span>
+                                                </div>
+                                                <div class="movie-info">
+                                                    <span>16+</span>
+                                                </div>
+                                            </div>
+                                            <div class="item-content-description top-down delay-4">
+                                                یک خلبان در سفر در زمان با خود کوچکتر و پدر مرحومش همکاری می کند تا ضمن نجات آینده، با گذشته خود کنار بیاید.
+                                            </div>
+                                            <div class="item-action top-down delay-6">
+                                                <a href="Movies/theadamproject.html" class="btn btn-hover">
+                                                    <i class="bx bxs-right-arrow"></i>
+                                                    <span>Watch now</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                <!-- END SLIDE ITEM -->
+    
+    <!-- LATEST CARTOONS SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                انیمه‌ها
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/cartoons/demon-slayer.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Demon Slayer
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/cartoons/croods.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Croods
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/cartoons/dragon.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Dragonball
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/cartoons/over-the-moon.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Over The Moon
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/cartoons/weathering.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Weathering With You
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/cartoons/your-name.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Your Name
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/cartoons/coco.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Coco
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END LATEST CARTOONS SECTION -->
+
+            <!-- FOOTER SECTION -->
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="content">
+                        <a href="#" class="logo">
+                            <i class='bx bx-movie-play bx-tada main-color'></i>IRANI<span class="main-color">A</span>N MOV<span class="main-color">I</span>E
+                        </a>
+                        <p>
+                            سلام بروبکس این سایت بهترین سایت برای دیدن فیلم هست سایت ما فیلم هارو در اختیار شما به طور رایگان قرار بدهیم برای حمایت از ما ممنون میشم از لینک زیر مارو حمایت کنید که می‌خوایم لحضات خوبی رو برای شما رقم بزنیم
+                        </p>
+                        <div class="social-list">
+                            <a href="https://www.twitch.tv/ultimate_death_" class="social-item">
+                                <i class="bx bxl-twitch"></i>
+                            </a>
+                            <a href="https://twitter.com/UltimateDeath6" class="social-item">
+                                <i class="bx bxl-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/3_ultimate_3/" class="social-item">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCEb7shMTEkMOBJmdwLozjwg" class="social-item">
+                                <i class="bx bxl-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Iranian Movie</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="About.html">About us</a></li>
+                                    <li><a href="https://discord.gg/YEFm4dJhsC">Discord</a></li>
+                                    <li><a href="https://paypal.me/KARMA439?country.x=GB&locale.x=en_GB">Donate</a></li>
+                                    <li><a href="mailto:ultimatedeathbusiness@gmail.com">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Help</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="About.html">About us</a></li>
+                                    <li><a href="https://steamcommunity.com/profiles/76561198999439909/">My Steam</a></li>
+                                    <li><a href="https://paypal.me/KARMA439?country.x=GB&locale.x=en_GB">Donate</a></li>
+                                    <li><a href="mailto:ultimatedeathbusiness@gmail.com">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Download app</b></p>
+                                <ul class="footer-menu">
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/google-play.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/app-store.png" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="copyright">
+        Copyright 2022 <a href="https://www.youtube.com/channel/UCEb7shMTEkMOBJmdwLozjwg" target="_blank">
+            PARHAM</a>
+    </div>
+    <!-- END COPYRIGHT SECTION -->
+
+            <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- APP SCRIPT -->
+    <script src="js/app.js"></script>
+    
+</body>
+</html>

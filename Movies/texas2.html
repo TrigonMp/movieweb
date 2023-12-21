@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          background: #303030; 
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: rgb(105, 105, 105); 
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: rgb(105, 105, 105); 
+        }
+    </style>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/movie.css">
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <title>Texas 2</title>
+    <link rel="icon" href="/images/logo-ghahveee.png">
+</head>
+<body>
+
+    <!-- NAV -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="index.html" class="logo">
+                    <i class='bx bx-movie-play bx-tada main-color'></i>IRANI<span class="main-color">A</span>N MOV<span class="main-color">I</span>E
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#">کارتون ها</a></li>
+                    <li><a href="Series.html">سریال ها</a></li>
+                    <li><a href="Movies.html">فیلم ها</a></li>
+                    <li><a href="#">تماشای آنلاین</a></li>
+                    <li><a href="About.html">اخبار و مقالات</a></li>
+                    <li><a href="index.html">صفحه اصلی</a></li>
+                    <li>
+                        <a href="form.html" class="btn btn-hover">
+                            <span>Sign in</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+    
+                    <section>
+                        <div class="container">
+                            <div id="video_player">
+                            <video src="https://s-v4.tamasha.com/statics/videos_file/61/ee/Wyeq0_61ee0f604ca8b875f37342eafa2716ec77f94625_n_1080.mp4" id="main-video" controls>
+                                    <track label="English" kind="subtitles" srclang="en" src="REV_TRANSCRIPTION_V3.vtt" default>
+                                </video>
+                                <div class="controls">
+                                    <div class="progress-area">
+                                        <div class="progress-bar">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                        </section>
+
+    <footer>
+        <span>Copyright © 2022 <a href="https://www.youtube.com/channel/UCEb7shMTEkMOBJmdwLozjwg">ParhaM</a> | All rights reserved</span>
+    </footer>
+
+    <script src="./js/Movie.js"></script>
+</body>
+</html>

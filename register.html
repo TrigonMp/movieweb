@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          background: #303030; 
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: rgb(105, 105, 105); 
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: rgb(105, 105, 105); 
+        }
+    </style>
+    <title>Login Form | Only Admin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="/app.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="icon" href="images/logo-ghahveee.png">
+ </head>
+  <body>
+
+    <!-- NAV -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="index.html" class="logo">
+                    <i class='bx bx-movie-play bx-tada main-color'></i>IRANI<span class="main-color">A</span>N MOV<span class="main-color">I</span>E
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#">کارتون ها</a></li>
+                    <li><a href="Series.html">سریال ها</a></li>
+                    <li><a href="Movies.html">فیلم ها</a></li>
+                    <li><a href="#">تماشای آنلاین</a></li>
+                    <li><a href="About.html">اخبار و مقالات</a></li>
+                    <li><a href="index.html">صفحه اصلی</a></li>
+                    <li>
+                        <a href="form.html" class="btn btn-hover">
+                            <span>Sign in</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+  
+    <div class="login-box">
+        <h2>ثبت نام</h2>
+        <form>
+          <div class="user-box">
+            <input type="email" name="" required="">
+            <label>ایمیل</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="" required="">
+            <label>نام کاربری</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="" required="">
+            <label>رمز شما</label>
+          </div>
+          <div class="user-box">
+            <input type="email" name="" required="">
+            <label>تایید رمز</label>
+          </div>
+          <a href="index.html">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            ثبت نام
+          </a>
+        </form>
+  </body>
+</html>

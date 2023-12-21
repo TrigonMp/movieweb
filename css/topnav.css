@@ -1,0 +1,32 @@
+.menu {
+  background: rgb(255, 0, 0);
+  margin: 0;
+}
+.menu {
+  width: 100%;
+  background: rgb(226, 56, 56);
+  overflow: auto;
+}
+.menu ul {
+  margin: 0;
+  padding: 0 100px;
+  list-style: none;
+  line-height: 45px;
+}
+.menu li {
+  float: left;
+}
+.menu ul li a {
+  text-decoration: none;
+  width: 130px;
+  display: block;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  letter-spacing: 0.5;
+}
+.menu li a:hover {
+  color: rgb(248, 248, 248);
+  opacity: 0.5;
+  font-size: 19px;
+}
